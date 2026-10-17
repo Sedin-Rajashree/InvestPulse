@@ -1,0 +1,23 @@
+{
+  "name": "investpulse-monorepo",
+  "version": "0.1.0",
+  "private": true,
+  "description": "InvestPulse - Local full-stack investor portfolio and spend analytics prototype",
+  "scripts": {
+    "dev": "npm --prefix frontend run dev",
+    "build": "npm --prefix frontend run build",
+    "start": "npm --prefix frontend run start",
+    "lint": "npm --prefix frontend run lint",
+    "test": "npm --prefix frontend test"
+  },
+  "keywords": [
+    "portfolio",
+    "analytics",
+    "investor",
+    "spend-management",
+    "nextjs",
+    "fastapi"
+  ],
+  "author": "InvestPulse Team",
+  "license": "UNLICENSED"
+}
